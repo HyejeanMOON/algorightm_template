@@ -1,8 +1,8 @@
 import dp.EditDistance;
-import eggdrop.EggDrop;
+import dp.eggdrop.EggDrop;
 import dp.LongestIncreasingSubsequence;
 import dp.PackageProblem;
-import eggdrop.EggDropByBinarySearch;
+import dp.eggdrop.EggDropByBinarySearch;
 
 public class Main {
 

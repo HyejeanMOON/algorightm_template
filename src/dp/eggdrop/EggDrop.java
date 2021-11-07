@@ -1,4 +1,4 @@
-package eggdrop;
+package dp.eggdrop;
 
 import java.util.HashMap;
 
