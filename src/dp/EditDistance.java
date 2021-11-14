@@ -1,9 +1,8 @@
 package dp;
 
-import com.sun.tools.javac.Main;
-
 public class EditDistance {
     // 编辑距离问题：要求我们通过删除，增加，替换的方式使两个字符串相同，求出最少实现的步骤数
+    // 时间复杂度O(s1.length*s2.length), 空间复杂度O(s1.length*s2.length).
 
     public int getEditDistance(String s1, String s2) {
         int len1 = s1.length(), len2 = s2.length();

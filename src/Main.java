@@ -1,13 +1,23 @@
-import dp.EditDistance;
+import dp.*;
 import dp.eggdrop.EggDrop;
-import dp.LongestIncreasingSubsequence;
-import dp.PackageProblem;
 import dp.eggdrop.EggDropByBinarySearch;
 
 public class Main {
 
     public static void main(String[] args) {
-        testEggDrop();
+        testRegularExpressionMatching();
+    }
+
+    public static void testRegularExpressionMatching() {
+        String s = "mississippi", pattern = "mis*is*p*.";
+        boolean result = new RegularExpressionMatching().match(s, pattern);
+        System.out.println("RegularExpressionMatching result: " + result);
+    }
+
+    public static void testLongestCommonSubsequence() {
+        String s = "abcde", p = "ace";
+        int result = new LongestCommonSubsequence().getLongestCommonSubsequence(s, p);
+        System.out.println("LongestCommonSubsequence result: " + result);
     }
 
     public static void testLongestIncreasingSubsequence() {
